@@ -1,0 +1,1 @@
+aws s3 sync . s3://cpdb.bohemianmatrices.com --exclude "*" --exclude ".git/*" --include "*.csv" --include "*.zip" --include "*.tar.gz" --acl public-read
